@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir 1</title>
+    <style>
+        /* Style CSS bisa dimodifikasi sesuai keinginan */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Keterangan Perorangan
+    </h1>
+
+    <form action="formulir_2.html" method="get">
+        <label>Nama :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>N.I.P :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Pangkat dan Golongan Ruang :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Tempat Lahir :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Kabupaten/ Kota Lahir :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Tgl. Lahir :</label>
+        <input type="date" style="width: 100%;" ><br><br>
+        <label>Jenis Kelamin :</label>
+        <select id="JenisKelamin" name="JenisKelamin" style="width: 100%;" ><br><br>
+            <option value=""></option>
+            <option value="Pria">Pria</option>
+            <option value="Wanita">Wanita</option>
+        </select><br><br>
+        <label>Agama :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Status Perkawinan :</label>
+        <select id="Status_Perkawinan" name="Status_Perkawinan" style="width: 100%;" ><br><br>
+            <option value=""></option>
+            <option value="BelumKawin">Belum Kawin</option>
+            <option value="Kawin">Kawin</option>
+            <option value="Janda">Janda</option>
+            <option value="Duda">Duda</option>
+            </select><br><br>
+        <label>Jalan :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Kelurahan/ Desa :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>kecamatan :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Kabupaten/ Kota :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Provinsi :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Tinggi(cm) :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Berat Badan(Kg) :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Rambut :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Bentuk Muka :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Warna Kulit :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Ciri Khas :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Cacat Tubuh :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <label>Kegemaran(Hobby) :</label>
+        <input type="text" style="width: 100%;" ><br><br>
+        <input type="submit" value="next">
+    </form>
+    
+</body>
+</html>

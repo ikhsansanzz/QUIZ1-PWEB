@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riwayat Hidup - Riwayat Pekerjaan</title>
+<style>
+    /* Style CSS bisa dimodifikasi sesuai keinginan */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="date"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<h2>Formulir Riwayat Hidup - Riwayat Pekerjaan</h2>
+<form action="formulir_5.html" method="get">
+    <label for="surat_keputusan">Surat Keputusan:</label>
+    <input type="text" id="surat_keputusan" name="surat_keputusan" >
+
+    <label for="no_pangkat">No. Pangkat:</label>
+    <input type="text" id="no_pangkat" name="no_pangkat" >
+
+    <label for="golongan_ruang">Gol/Ruang:</label>
+    <input type="text" id="golongan_ruang" name="golongan_ruang" >
+
+    <label for="penggajian_berlaku">Penggajian Berlaku:</label>
+    <input type="date" id="penggajian_berlaku" name="penggajian_berlaku" >
+
+    <label for="tmt">TMT:</label>
+    <input type="date" id="tmt" name="tmt" >
+
+    <label for="gaji_pokok">Gaji Pokok:</label>
+    <input type="number" id="gaji_pokok" name="gaji_pokok" >
+
+    <label for="pejabat_nomor_tgl">Pejabat Nomor Tanggal:</label>
+    <input type="text" id="pejabat_nomor_tgl" name="pejabat_nomor_tgl" >
+
+    <label for="peraturan_dasar">Peraturan Dasar:</label>
+    <textarea id="peraturan_dasar" name="peraturan_dasar" ></textarea>
+
+    <input type="submit" value="next">
+</form>
+</body>
+</html>
